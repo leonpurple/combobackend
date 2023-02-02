@@ -1,0 +1,20 @@
+project:
+  type: website
+
+website:
+  title: "wiki cruz"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - java.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
