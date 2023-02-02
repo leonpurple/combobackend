@@ -1,9 +1,22 @@
 ---
-title: "wiki cruz"
+title: "Disign Patterns"
 ---
 
-This is a Quarto website.
+## ¿ Por que usar Dising Patterns...?
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+"Los patrones de diseño en Java son una herramienta esencial para cualquier desarrollador. Mejoran la calidad del código al proporcionar soluciones estandarizadas y reutilizables a problemas comunes en el desarrollo de software. Al utilizarlos, los desarrolladores pueden reducir la cantidad de código duplicado, mejorar la legibilidad y la mantenibilidad del código y hacer que el desarrollo sea más eficiente y organizado. ¡Optimiza tu código con patrones de diseño en Java! "
 
-Hello world
+
+## Los 5 patrones de diseño más utilizados en Java son:
+
+- Patrón de Singleton: Asegura que una clase solo tenga una instancia y provee un punto de acceso global a ella.
+
+- Patrón de Fabrica: Define una interfaz para crear objetos en una superclase, pero deja que las subclases decidan qué clases crear.
+
+- Patrón de Estrategia: Define una familia de algoritmos, encapsula cada uno y los hace intercambiables.
+
+- Patrón de Observer: Define una dependencia uno-a-muchos entre objetos, de manera que cuando un objeto cambia su estado, todos sus dependientes son notificados y actualizados automáticamente.
+
+- Patrón de Decorador: Anade responsabilidades a objetos dinámicamente en tiempo de ejecución.
+
+

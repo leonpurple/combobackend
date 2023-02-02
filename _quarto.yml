@@ -7,8 +7,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-      - java.qmd
+      - SOBRE GIT & GI-HUB.qmd
+      
 
 format:
   html:
