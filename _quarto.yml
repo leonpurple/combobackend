@@ -7,7 +7,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - SOBRE GIT & GI-HUB.qmd
+        
       
 
 format:
