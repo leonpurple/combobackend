@@ -2,13 +2,68 @@ project:
   type: website
 
 website:
-  title: "wiki cruz"
+  title: CruzMartinez
+
+  repo-url: https://github.com/leonpurple/wikicruz
+  repo-actions: [edit, issue]
+
   navbar:
+    background: primary
+    style: "floating"
+    search: true
+    
     left:
-      - href: index.qmd
-        text: Home
-        
+           - text: Design Patterns
+             file: index.qmd
+           - sidebar:aboutgit
+           - sidebar:aboutgithub
+           - sidebar:aboutuml
+            
+  sidebar:
+    - id: "aboutgit" 
+      title: "Git" 
+     # border: true
+
+    - id: "aboutgithub" 
+      title: "Git Hub"
+
+    - id: "aboutuml"
+      title: "UML"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       
+       
+         
+      
+        
+        
+    
+  page-footer: 
+    background: dark
+    left: "[Magazine CruzMartinez](https://github.com/leonpurple/wikicruz)" 
+    center: "" 
+    right: 
+      - icon: github
+        href: https://github.com/leonpurple/wikicruz/
+       
+        
+    
 
 format:
   html:

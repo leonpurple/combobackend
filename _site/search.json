@@ -1,23 +1,30 @@
 [
   {
+    "objectID": "aboutgit/aboutgit.html",
+    "href": "aboutgit/aboutgit.html",
+    "title": "Sobre Git Git-hub",
+    "section": "",
+    "text": "Si estás iniciando a utilizar Git, aquí hay algunas operaciones básicas que debes conocer:\n\nInicializar un repositorio: Este es el primer paso para comenzar a usar Git en un proyecto. Se puede hacer ejecutando el comando “git init” en la línea de comandos dentro de la carpeta del proyecto.\nAgregar archivos al área de seguimiento: Una vez que se ha inicializado el repositorio, puedes agregar archivos al área de seguimiento con el comando “git add”. Esto significa que Git ahora vigilará cualquier cambio en esos archivos.\nRealizar un commit: Una vez que hayas agregado archivos al área de seguimiento, puedes hacer un commit para guardar los cambios en la historia del repositorio. Este se puede hacer con el comando “git commit -m”mensaje del commit”“.\nVer el historial de commits: Puedes ver la historia de los cambios en un repositorio con el comando “git log”.\nSincronizar con un repositorio remoto: Si trabajas en un equipo o deseas tener una copia de seguridad de tu proyecto en un servidor remoto, puedes sincronizar tu repositorio local con un repositorio remoto mediante los comandos “git push” y “git pull”.\nEstas son solo algunas de las operaciones básicas de Git, pero existen muchas otras opciones y herramientas para administrar y trabajar con repositorios en Git."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Disign Patterns",
+    "title": "Design Patterns",
     "section": "",
-    "text": "“Los patrones de diseño en Java son una herramienta esencial para cualquier desarrollador. Mejoran la calidad del código al proporcionar soluciones estandarizadas y reutilizables a problemas comunes en el desarrollo de software. Al utilizarlos, los desarrolladores pueden reducir la cantidad de código duplicado, mejorar la legibilidad y la mantenibilidad del código y hacer que el desarrollo sea más eficiente y organizado. ¡Optimiza tu código con patrones de diseño en Java!”"
+    "text": "Pincipios SOLID y patrones de Diseño"
+  },
+  {
+    "objectID": "index.html#por-que-usar-desing-patterns",
+    "href": "index.html#por-que-usar-desing-patterns",
+    "title": "Design Patterns",
+    "section": "¿ Por que usar Desing Patterns…?",
+    "text": "¿ Por que usar Desing Patterns…?\n“Los patrones de diseño en Java son una herramienta esencial para cualquier desarrollador. Mejoran la calidad del código al proporcionar soluciones estandarizadas y reutilizables a problemas comunes en el desarrollo de software. Al utilizarlos, los desarrolladores pueden reducir la cantidad de código duplicado, mejorar la legibilidad y la mantenibilidad del código y hacer que el desarrollo sea más eficiente y organizado. ¡Optimiza tu código con patrones de diseño en Java!”"
   },
   {
     "objectID": "index.html#los-5-patrones-de-diseño-más-utilizados-en-java-son",
     "href": "index.html#los-5-patrones-de-diseño-más-utilizados-en-java-son",
-    "title": "Disign Patterns",
+    "title": "Design Patterns",
     "section": "Los 5 patrones de diseño más utilizados en Java son:",
-    "text": "Los 5 patrones de diseño más utilizados en Java son:\n\nPatrón de Singleton: Asegura que una clase solo tenga una instancia y provee un punto de acceso global a ella.\nPatrón de Fabrica: Define una interfaz para crear objetos en una superclase, pero deja que las subclases decidan qué clases crear.\nPatrón de Estrategia: Define una familia de algoritmos, encapsula cada uno y los hace intercambiables.\nPatrón de Observer: Define una dependencia uno-a-muchos entre objetos, de manera que cuando un objeto cambia su estado, todos sus dependientes son notificados y actualizados automáticamente.\nPatrón de Decorador: Anade responsabilidades a objetos dinámicamente en tiempo de ejecución."
-  },
-  {
-    "objectID": "sobreGit-gitHub.html",
-    "href": "sobreGit-gitHub.html",
-    "title": "Sobre Git Git-hub",
-    "section": "",
-    "text": "Si estás iniciando a utilizar Git, aquí hay algunas operaciones básicas que debes conocer:\n\nInicializar un repositorio: Este es el primer paso para comenzar a usar Git en un proyecto. Se puede hacer ejecutando el comando “git init” en la línea de comandos dentro de la carpeta del proyecto.\nAgregar archivos al área de seguimiento: Una vez que se ha inicializado el repositorio, puedes agregar archivos al área de seguimiento con el comando “git add”. Esto significa que Git ahora vigilará cualquier cambio en esos archivos.\nRealizar un commit: Una vez que hayas agregado archivos al área de seguimiento, puedes hacer un commit para guardar los cambios en la historia del repositorio. Este se puede hacer con el comando “git commit -m”mensaje del commit”“.\nVer el historial de commits: Puedes ver la historia de los cambios en un repositorio con el comando “git log”.\nSincronizar con un repositorio remoto: Si trabajas en un equipo o deseas tener una copia de seguridad de tu proyecto en un servidor remoto, puedes sincronizar tu repositorio local con un repositorio remoto mediante los comandos “git push” y “git pull”.\nEstas son solo algunas de las operaciones básicas de Git, pero existen muchas otras opciones y herramientas para administrar y trabajar con repositorios en Git."
+    "text": "Los 5 patrones de diseño más utilizados en Java son:\n\n👉Developer skills summary\n\nPatrón de Singleton\nPatrón de Fabrica\nPatrón de Estrategia\nPatrón Observer\nPatrón Decorador\n\n\n\n\nPatrón de Singleton: Asegura que una clase solo tenga una instancia y provee un punto de acceso global a ella.\nPatrón de Fabrica: Define una interfaz para crear objetos en una superclase, pero deja que las subclases decidan qué clases crear.\nPatrón de Estrategia: Define una familia de algoritmos, encapsula cada uno y los hace intercambiables.\nPatrón de Observer: Define una dependencia uno-a-muchos entre objetos, de manera que cuando un objeto cambia su estado, todos sus dependientes son notificados y actualizados automáticamente.\nPatrón de Decorador: Anade responsabilidades a objetos dinámicamente en tiempo de ejecución."
   }
 ]

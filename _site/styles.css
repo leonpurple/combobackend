@@ -1,1 +1,14 @@
 /* css styles */
+
+
+/* summary card */
+.summary{
+    padding: 16px 16px 16px 16px;
+    background: #68cff8;
+    border: #ffffff6b;
+    color: #112074;
+    border-radius: 10px 10px 10px 10px;
+}
+ .title{
+    color: purple;
+}

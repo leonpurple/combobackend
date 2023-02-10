@@ -1,13 +1,26 @@
 ---
-title: "Disign Patterns"
+title: "Design Patterns"
 ---
+![Pincipios SOLID y patrones de Diseño](images/home/fotografia001.png){.preview-image}
 
-## ¿ Por que usar Dising Patterns...?
+## ¿ Por que usar Desing Patterns...?
 
 "Los patrones de diseño en Java son una herramienta esencial para cualquier desarrollador. Mejoran la calidad del código al proporcionar soluciones estandarizadas y reutilizables a problemas comunes en el desarrollo de software. Al utilizarlos, los desarrolladores pueden reducir la cantidad de código duplicado, mejorar la legibilidad y la mantenibilidad del código y hacer que el desarrollo sea más eficiente y organizado. ¡Optimiza tu código con patrones de diseño en Java! "
 
 
 ## Los 5 patrones de diseño más utilizados en Java son:
+
+::: {.summary}
+ 👉**Developer skills summary**
+
+- Patrón de Singleton
+- Patrón de Fabrica
+- Patrón de Estrategia
+- Patrón Observer
+- Patrón Decorador
+:::
+
+---
 
 - Patrón de Singleton: Asegura que una clase solo tenga una instancia y provee un punto de acceso global a ella.
 
