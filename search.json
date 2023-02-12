@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "aboutgit/aboutgit.html",
+    "href": "aboutgit/aboutgit.html",
+    "title": "Sobre Git",
+    "section": "",
+    "text": "Git"
+  },
+  {
+    "objectID": "aboutgit/aboutgit.html#operaciones-principales-para-los-que-inician-a-utilizar-git",
+    "href": "aboutgit/aboutgit.html#operaciones-principales-para-los-que-inician-a-utilizar-git",
+    "title": "Sobre Git",
+    "section": "Operaciones principales para los que inician a utilizar git",
+    "text": "Operaciones principales para los que inician a utilizar git\nSi estás iniciando a utilizar Git, aquí hay algunas operaciones básicas que debes conocer:\n\nInicializar un repositorio: Este es el primer paso para comenzar a usar Git en un proyecto. Se puede hacer ejecutando el comando git init en la línea de comandos dentro de la carpeta del proyecto.\nAgregar archivos al área de seguimiento: Una vez que se ha inicializado el repositorio, puedes agregar archivos al área de seguimiento con el comando git add. Esto significa que Git ahora vigilará cualquier cambio en esos archivos.\nRealizar un commit: Una vez que hayas agregado archivos al área de seguimiento, puedes hacer un commit para guardar los cambios en la historia del repositorio. Este se puede hacer con el comando git commit -m \"mensaje del commit\"\"\nVer el historial de commits: Puedes ver la historia de los cambios en un repositorio con el comando git log.\nSincronizar con un repositorio remoto: Si trabajas en un equipo o deseas tener una copia de seguridad de tu proyecto en un servidor remoto, puedes sincronizar tu repositorio local con un repositorio remoto mediante los comandos git push y git pull.\n\nEstas son solo algunas de las operaciones básicas de Git, pero existen muchas otras opciones y herramientas para administrar y trabajar con repositorios en Git."
+  },
+  {
+    "objectID": "designpatterns/designpatterns.html",
+    "href": "designpatterns/designpatterns.html",
+    "title": "Design Patterns",
+    "section": "",
+    "text": "Pincipios SOLID y patrones de Diseño"
+  },
+  {
+    "objectID": "designpatterns/designpatterns.html#por-que-usar-desing-patterns",
+    "href": "designpatterns/designpatterns.html#por-que-usar-desing-patterns",
+    "title": "Design Patterns",
+    "section": "¿ Por que usar Desing Patterns…?",
+    "text": "¿ Por que usar Desing Patterns…?\n“Los patrones de diseño en Java son una herramienta esencial para cualquier desarrollador. Mejoran la calidad del código al proporcionar soluciones estandarizadas y reutilizables a problemas comunes en el desarrollo de software. Al utilizarlos, los desarrolladores pueden reducir la cantidad de código duplicado, mejorar la legibilidad y la mantenibilidad del código y hacer que el desarrollo sea más eficiente y organizado. ¡Optimiza tu código con patrones de diseño en Java!”"
+  },
+  {
+    "objectID": "designpatterns/designpatterns.html#los-5-patrones-de-diseño-más-utilizados-en-java-son",
+    "href": "designpatterns/designpatterns.html#los-5-patrones-de-diseño-más-utilizados-en-java-son",
+    "title": "Design Patterns",
+    "section": "Los 5 patrones de diseño más utilizados en Java son:",
+    "text": "Los 5 patrones de diseño más utilizados en Java son:\n\n👉Developer skills summary\n\nPatrón de Singleton\nPatrón de Fabrica\nPatrón de Estrategia\nPatrón Observer\nPatrón Decorador\n\n\n\n\nPatrón de Singleton: Asegura que una clase solo tenga una instancia y provee un punto de acceso global a ella.\nPatrón de Fabrica: Define una interfaz para crear objetos en una superclase, pero deja que las subclases decidan qué clases crear.\nPatrón de Estrategia: Define una familia de algoritmos, encapsula cada uno y los hace intercambiables.\nPatrón de Observer: Define una dependencia uno-a-muchos entre objetos, de manera que cuando un objeto cambia su estado, todos sus dependientes son notificados y actualizados automáticamente.\nPatrón de Decorador: Anade responsabilidades a objetos dinámicamente en tiempo de ejecución."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome ComboBackend",
+    "section": "",
+    "text": "Bienvenidos a la pagina web especializada en backend Develoment. Somos un equipo de desarrolladores apasionados por la tecnología y la programación, y estamos aquí para ayudarte a aprender , comprender y aplicar los conceptos y técnicas más actuales en el desarrollo de backend."
+  },
+  {
+    "objectID": "programmingparadigms/programmingparadigms.html#los-paradigmas-adecuados-puede-marcar-la-diferencia-en-la-calidad-y-eficiencia-del-código-producido",
+    "href": "programmingparadigms/programmingparadigms.html#los-paradigmas-adecuados-puede-marcar-la-diferencia-en-la-calidad-y-eficiencia-del-código-producido",
+    "title": "Programming Paradigms",
+    "section": "Los paradigmas adecuados puede marcar la diferencia en la calidad y eficiencia del código producido",
+    "text": "Los paradigmas adecuados puede marcar la diferencia en la calidad y eficiencia del código producido\n\n👉 Developer skills summary\n\nImperative Paradigm\nFunctional Paradigm\nDeclarative Paradigm\nReactive Paradigm\nObject Oriented Paradigms\n\n\n\nLos paradigmas de programación son un conjunto de herramientas y técnicas que facilitan la resolución de problemas y la implementación de soluciones efectivas en el desarrollo de software. Conocer y aplicar los paradigmas adecuados puede marcar la diferencia en la calidad y eficiencia del código producido, por lo que es importante que los programadores estén familiarizados con los principales paradigmas utilizados en el mercado."
+  },
+  {
+    "objectID": "programmingparadigms/programmingparadigms.html#tipos-de-paradigmas-de-programación",
+    "href": "programmingparadigms/programmingparadigms.html#tipos-de-paradigmas-de-programación",
+    "title": "Programming Paradigms",
+    "section": "5 tipos de paradigmas de programación",
+    "text": "5 tipos de paradigmas de programación\nExisten varios tipos de paradigmas de programación que se deben elegir en función del lenguaje de programación que se utilice. La elección adecuada de los paradigmas garantizará que el proceso de programación sea eficiente y sin problemas. Aquí te presentaremos 5 de los paradigmas de programación más importantes."
+  },
+  {
+    "objectID": "programmingparadigms/programmingparadigms.html#paradigma-imperativo",
+    "href": "programmingparadigms/programmingparadigms.html#paradigma-imperativo",
+    "title": "Programming Paradigms",
+    "section": "Paradigma Imperativo",
+    "text": "Paradigma Imperativo\nEn el mundo de la programación, el paradigma imperativo o de procedimientos es uno de los más populares. Este enfoque permite a los programadores crear software mediante la definición de procedimientos detallados. Se utiliza una serie de instrucciones que explican de manera clara y concisa el funcionamiento del código, permitiendo a los usuarios seguir el proceso con facilidad."
+  },
+  {
+    "objectID": "programmingparadigms/programmingparadigms.html#paradigma-funcional",
+    "href": "programmingparadigms/programmingparadigms.html#paradigma-funcional",
+    "title": "Programming Paradigms",
+    "section": "Paradigma Funcional",
+    "text": "Paradigma Funcional\nEl paradigma funcional se basa en el uso de funciones matemáticas para lograr un resultado. Este tipo de programación se enfoca en el resultado deseado y no tanto en los detalles de cómo se llega a él. Esto lo hace ideal para el ámbito académico, donde se busca comprender conceptos profundos y no necesariamente crear soluciones eficientes en términos de tiempo y recursos. Es un enfoque distinto al del paradigma imperativo, donde se preocupa más por las instrucciones y pasos que llevan a un resultado."
+  },
+  {
+    "objectID": "programmingparadigms/programmingparadigms.html#paradigma-declarativo",
+    "href": "programmingparadigms/programmingparadigms.html#paradigma-declarativo",
+    "title": "Programming Paradigms",
+    "section": "Paradigma Declarativo",
+    "text": "Paradigma Declarativo\nEl paradigma declarativo se enfoca en el resultado desde el comienzo. Con un enfoque en la determinación automática del camino hacia una solución, este paradigma puede ser muy eficiente en la programación, siempre y cuando se tenga una comprensión clara del proceso que se está llevando a cabo"
+  },
+  {
+    "objectID": "programmingparadigms/programmingparadigms.html#paradigma-reactivo",
+    "href": "programmingparadigms/programmingparadigms.html#paradigma-reactivo",
+    "title": "Programming Paradigms",
+    "section": "Paradigma Reactivo",
+    "text": "Paradigma Reactivo\nParadigma reactivo: Este enfoque se centra en el análisis de los flujos de datos, tanto finitos como infinitos, con el objetivo de responder a las demandas durante el desarrollo del proyecto, manteniendo un alto nivel de escalabilidad y una rápida respuesta a los cambios en los valores generados por los flujos de datos."
+  },
+  {
+    "objectID": "programmingparadigms/programmingparadigms.html#paradigmas-orientados-a-objetos",
+    "href": "programmingparadigms/programmingparadigms.html#paradigmas-orientados-a-objetos",
+    "title": "Programming Paradigms",
+    "section": "Paradigmas orientados a objetos",
+    "text": "Paradigmas orientados a objetos\nEn el paradigma orientado a objetos, se enfoca en trabajar con objetos y componentes de código. Cada objeto es una pieza independiente que, cuando se combina con otros, forma parte del sistema que está siendo desarrollado. Este enfoque proporciona una estructura clara y eficiente para el proceso de programación.\n\n\n\n\n\n\n\n\nLenguaje\nParadigmas\n\n\n\n\nScala\nImperativo, orientado a objetos, funcional, genérico y concurrente\n\n\nErlang\nFuncional, orientado a objetos y funcional\n\n\nPerl\nImperativo, orientado a objetos y funcional\n\n\nPHP\nImperativo, orientado a objetos, funcional y reflexivo\n\n\nJavaScript\nImperativo, orientado a objetos (prototipos) y funcional\n\n\nJava\nImperativo, orientado a objetos, reflexivo y genérico\n\n\nPython y Ruby\nImperativo, orientado a objetos, reflexivo y funcional\n\n\nC++\nImperativo, orientado a objetos, funcional y genérico\n\n\nC#\nImperativo, orientado a objetos, funcional (lambda), reflexivo y genérico\n\n\nLisp\nOrientado a objetos, funcional y declarativo\n\n\nProlog\nLógico y declarativo"
+  }
+]
