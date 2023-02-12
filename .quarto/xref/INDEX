@@ -19,5 +19,14 @@
   },
   "aboutgit/aboutgit.qmd": {
     "aboutgit.html": "e7bc6472"
+  },
+  "programmingparadigms/programmingparadigms.qmd": {
+    "programmingparadigms.html": "c34c037f"
+  },
+  "desingpaterns/designpatterns.qmd": {
+    "designpatterns.html": "cddb9db9"
+  },
+  "designpatterns/designpatterns.qmd": {
+    "designpatterns.html": "cba31f63"
   }
 }

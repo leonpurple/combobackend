@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Welcome ComboBackend -</title>
+<title>Welcome ComboBackend - Design Patterns</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -60,17 +60,17 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Welcome ComboBackend</span>
     </a>
   </div>
@@ -80,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">
+    <a class="nav-link" href="../index.html">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -90,7 +90,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu" aria-labelledby="nav-menu-desing-patterns">    
         <li class="dropdown-header">Super Info</li>
         <li>
-    <a class="dropdown-item" href="./designpatterns/designpatterns.html">
+    <a class="dropdown-item" href="../designpatterns/designpatterns.html">
  <span class="dropdown-text">Design Patterns</span></a>
   </li>  
     </ul>
@@ -102,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu" aria-labelledby="nav-menu-git">    
         <li class="dropdown-header">flow Git</li>
         <li>
-    <a class="dropdown-item" href="./aboutgit/aboutgit.html">
+    <a class="dropdown-item" href="../aboutgit/aboutgit.html">
  <span class="dropdown-text">Sobre Git</span></a>
   </li>  
     </ul>
@@ -114,7 +114,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu" aria-labelledby="nav-menu-programming-paradigms">    
         <li class="dropdown-header">Super Info</li>
         <li>
-    <a class="dropdown-item" href="./programmingparadigms/programmingparadigms.html">
+    <a class="dropdown-item" href="../programmingparadigms/programmingparadigms.html">
  <span class="dropdown-text">Programming Paradigms</span></a>
   </li>  
     </ul>
@@ -124,25 +124,107 @@ ul.task-list li input[type="checkbox"] {
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Design Patterns</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  Desing Patterns
+  </li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Super Info</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../designpatterns/designpatterns.html" class="sidebar-item-text sidebar-link active">Design Patterns</a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#por-que-usar-desing-patterns" id="toc-por-que-usar-desing-patterns" class="nav-link active" data-scroll-target="#por-que-usar-desing-patterns">¿ Por que usar Desing Patterns…?</a></li>
+  <li><a href="#los-5-patrones-de-diseño-más-utilizados-en-java-son" id="toc-los-5-patrones-de-diseño-más-utilizados-en-java-son" class="nav-link" data-scroll-target="#los-5-patrones-de-diseño-más-utilizados-en-java-son">Los 5 patrones de diseño más utilizados en Java son:</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/leonpurple/wikicruz/edit/main/designpatterns/designpatterns.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/leonpurple/wikicruz/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-
-
-<div class="s">
-<p><img src="images/home/image-home.png" class="img img-fluid"></p>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Design Patterns</h1>
 </div>
-<p>B{.span}ienvenidos a la pagina web especializada en backend Develoment. Somos un equipo de desarrolladores apasionados por la tecnología y la programación, y estamos aquí para ayudarte a aprender , comprender y aplicar los conceptos y técnicas más actuales en el desarrollo de backend.</p>
 
 
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="..\images/designpatterns/image-designpatterns.png" class="preview-image img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Pincipios SOLID y patrones de Diseño</figcaption><p></p>
+</figure>
+</div>
+<section id="por-que-usar-desing-patterns" class="level2">
+<h2 class="anchored" data-anchor-id="por-que-usar-desing-patterns">¿ Por que usar Desing Patterns…?</h2>
+<p>“Los patrones de diseño en Java son una herramienta esencial para cualquier desarrollador. Mejoran la calidad del código al proporcionar soluciones estandarizadas y reutilizables a problemas comunes en el desarrollo de software. Al utilizarlos, los desarrolladores pueden reducir la cantidad de código duplicado, mejorar la legibilidad y la mantenibilidad del código y hacer que el desarrollo sea más eficiente y organizado. ¡Optimiza tu código con patrones de diseño en Java!”</p>
+</section>
+<section id="los-5-patrones-de-diseño-más-utilizados-en-java-son" class="level2">
+<h2 class="anchored" data-anchor-id="los-5-patrones-de-diseño-más-utilizados-en-java-son">Los 5 patrones de diseño más utilizados en Java son:</h2>
+<div class="summary">
+<p>👉<strong>Developer skills summary</strong></p>
+<ul>
+<li>Patrón de Singleton</li>
+<li>Patrón de Fabrica</li>
+<li>Patrón de Estrategia</li>
+<li>Patrón Observer</li>
+<li>Patrón Decorador</li>
+</ul>
+</div>
+<hr>
+<ul>
+<li><p>Patrón de Singleton: Asegura que una clase solo tenga una instancia y provee un punto de acceso global a ella.</p></li>
+<li><p>Patrón de Fabrica: Define una interfaz para crear objetos en una superclase, pero deja que las subclases decidan qué clases crear.</p></li>
+<li><p>Patrón de Estrategia: Define una familia de algoritmos, encapsula cada uno y los hace intercambiables.</p></li>
+<li><p>Patrón de Observer: Define una dependencia uno-a-muchos entre objetos, de manera que cuando un objeto cambia su estado, todos sus dependientes son notificados y actualizados automáticamente.</p></li>
+<li><p>Patrón de Decorador: Anade responsabilidades a objetos dinámicamente en tiempo de ejecución.</p></li>
+</ul>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
