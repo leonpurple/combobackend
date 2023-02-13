@@ -12,7 +12,7 @@ website:
     style: "floating"
     search: true
     
-    left:
+    right:
            - text: Home #HOME
              file: index.qmd
            - sidebar:designpatterns  
