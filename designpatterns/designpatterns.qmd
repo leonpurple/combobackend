@@ -413,4 +413,3 @@ y ConcreteDecoratorB para ver cómo cambia la operación.
 :::
 
 
-

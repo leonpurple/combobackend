@@ -73,6 +73,20 @@ website:
           contents:
           - programmingparadigms/programmingparadigms.qmd
 
+      #VOCABULARY
+    - id: "vocabulary"
+      title: "vocabulary"  
+      border: true
+      background: none
+      style: "floating"
+      contents:
+        - text: "Vocabulary" 
+        - text: "---" 
+        - section: "Super Info "
+          contents:
+          - vocabulary/vocabulary.qmd    
+
+
 
 
 
@@ -114,6 +128,4 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-
-
 

@@ -89,5 +89,68 @@
     "title": "Programming Paradigms",
     "section": "Paradigmas orientados a objetos",
     "text": "Paradigmas orientados a objetos\nEn el paradigma orientado a objetos, se enfoca en trabajar con objetos y componentes de código. Cada objeto es una pieza independiente que, cuando se combina con otros, forma parte del sistema que está siendo desarrollado. Este enfoque proporciona una estructura clara y eficiente para el proceso de programación.\n\n\n\n\n\n\n\n\nLenguaje\nParadigmas\n\n\n\n\nScala\nImperativo, orientado a objetos, funcional, genérico y concurrente\n\n\nErlang\nFuncional, orientado a objetos y funcional\n\n\nPerl\nImperativo, orientado a objetos y funcional\n\n\nPHP\nImperativo, orientado a objetos, funcional y reflexivo\n\n\nJavaScript\nImperativo, orientado a objetos (prototipos) y funcional\n\n\nJava\nImperativo, orientado a objetos, reflexivo y genérico\n\n\nPython y Ruby\nImperativo, orientado a objetos, reflexivo y funcional\n\n\nC++\nImperativo, orientado a objetos, funcional y genérico\n\n\nC#\nImperativo, orientado a objetos, funcional (lambda), reflexivo y genérico\n\n\nLisp\nOrientado a objetos, funcional y declarativo\n\n\nProlog\nLógico y declarativo"
+  },
+  {
+    "objectID": "designpatterns/designpatterns.html#seattle-precipitation-by-day-2012-to-2016",
+    "href": "designpatterns/designpatterns.html#seattle-precipitation-by-day-2012-to-2016",
+    "title": "observable plot",
+    "section": "Seattle Precipitation by Day (2012 to 2016)",
+    "text": "Seattle Precipitation by Day (2012 to 2016)\n\ndata = FileAttachment(\"seattle-weather.csv\")\n  .csv({typed: true})\n  \nPlot.plot({\n  width: 800, height: 500, padding: 0,\n  color: { scheme: \"blues\", type: \"sqrt\"},\n  y: { tickFormat: i => \"JFMAMJJASOND\"[i] },\n  marks: [\n    Plot.cell(data, Plot.group({fill: \"mean\"}, {\n      x: d => d.date.getUTCDate(),\n      y: d => d.date.getUTCMonth(),\n      fill: \"precipitation\", \n      inset: 0.5\n    }))\n  ]\n})"
+  },
+  {
+    "objectID": "aboutjavascript/aboutjavascript.html",
+    "href": "aboutjavascript/aboutjavascript.html",
+    "title": "Quarto Markdown: OJS Cells",
+    "section": "",
+    "text": "OJS code cells {ojs} behave a bit differently than cells in traditional notebooks, and have many options available to control their display and layout.\nObservable is a platform for publishing and sharing interactive data-driven documents, an online editor for composing, cells are executed in a sequence, with outputs being generated and displayed as part of the notebook, changes made to cells can be re-executed, updated in real-time."
+  },
+  {
+    "objectID": "aboutjavascript/aboutjavascript.html#observable-js-cells",
+    "href": "aboutjavascript/aboutjavascript.html#observable-js-cells",
+    "title": "Quarto Markdown: OJS Cells",
+    "section": "1 Observable JS Cells",
+    "text": "1 Observable JS Cells\n\n1.1 Cell Execution\nA critical difference between OJS cell execution and traditional notebooks is that in OJS cells do not need to be defined in any particular order.\nBecause execution** is fully reactive**, the runtime will automatically execute cells in the correct order based on how they reference each other. This is different than a traditional notebook with linear cell execution."
+  },
+  {
+    "objectID": "aboutjavascript/aboutjavascript.html#examples",
+    "href": "aboutjavascript/aboutjavascript.html#examples",
+    "title": "Quarto Markdown: OJS Cells",
+    "section": "2 Examples",
+    "text": "2 Examples\n\n2.1 Example 1: viewof\n\nlink\n\n\n\"choose one color\"\n\n\n\n\n\n\n\nviewof color = Inputs.select([\"red\", \"orange\", \"yellow\", \"green\", \"blue\", \"violet\"], {value: \"green\"})\ncolor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2.2 Example 2: Histiogram\n\nlink\n\n\nheight = 250\nnumbers = Float64Array.from({length: 1000}, d3.randomNormal())\nimport {chart as histogram} with {numbers as data, height} from \"@d3/histogram@261\"\nhistogram\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2.3 Example 3: Cars data\n\nlink\n\n\nimport {viewof selection as cars} from \"@d3/brushable-scatterplot\"\nviewof cars\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2.4 Example 6: mortgage\n\nmortgage\n\n\nviewof amount = Inputs.range([100000, 1500000], {label: \"Mortgage amount\", step: 100000})\nviewof interest = Inputs.range([2, 8], {label: \"Interest rate (%)\", step: .1})\nviewof duration = Inputs.range([10, 30], {label: \"Duration\", step: 5})\n\"Values:\"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\namount\n\n\n\n\n\n\n\ninterest\n\n\n\n\n\n\n\nduration\n\n\n\n\n\n\n\n\nA mortgage for a house purchased for  at an interest rate of % over  years.\nIt costs a total of  dolars.\n\n\n2.5 Example 5: Fetch with loading…\n\nObservable JS\n\n\nd3 = require(\"d3\");\nviewof fetchButton = Inputs.button(\"fetch\", {async function() {\n    loadingMessage.value = \"Loading...\";\n    let contributors = {};\n    contributors.value = await d3.json(\"https://api.github.com/repos/albertprofe/wiki/stats/contributors\");\n    \n    let commits = contributors.value.map(contributor => {\n      loadingMessage.value = \"done\";\n      let author = contributor.author;\n      return {\n        name: author.login,\n        title: author.login,\n        group: author.type,\n        value: contributor.total\n      }\n    });\n    Inputs.table(commits, { sort: \"value\", reverse: true })\n}});\nviewof loadingMessage = Inputs.button(\"...\");\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  Quarto Markdown: publishing \n\n\n\n  top \n\n\n\n Quarto Markdown: cheat-sheet"
+  },
+  {
+    "objectID": "vocabulary/vocavulary-in-verb-reg.html",
+    "href": "vocabulary/vocavulary-in-verb-reg.html",
+    "title": "General Vocabulary",
+    "section": "",
+    "text": "Technical terms and definitions"
+  },
+  {
+    "objectID": "vocabulary/vocavulary-in-verb-reg.html#vocabulary",
+    "href": "vocabulary/vocavulary-in-verb-reg.html#vocabulary",
+    "title": "General Vocabulary",
+    "section": "1 Vocabulary",
+    "text": "1 Vocabulary\n: General vocabulary {tbl-colwidths=“[20,80]”}\nregulars |\nirregulars |\ntransitive vs. Intransitive |\nmodal verbs |\nCompound verbs |\nReflexive verbs |"
+  },
+  {
+    "objectID": "vocabulary/vocavulary.html",
+    "href": "vocabulary/vocavulary.html",
+    "title": "General Vocabulary",
+    "section": "",
+    "text": "Technical terms and definitions"
+  },
+  {
+    "objectID": "vocabulary/vocavulary.html#vocabulary",
+    "href": "vocabulary/vocavulary.html#vocabulary",
+    "title": "General Vocabulary",
+    "section": "1 Vocabulary",
+    "text": "1 Vocabulary\n: General vocabulary {tbl-colwidths=“[20,80]”}\nregulars verbs|\nirregulars verbs|\ntransitive vs. Intransitive |\nmodal verbs |\nCompound verbs |\nReflexive verbs |"
+  },
+  {
+    "objectID": "vocabulary/vocabulary-regulars-verbs.html",
+    "href": "vocabulary/vocabulary-regulars-verbs.html",
+    "title": "General Vocabulary",
+    "section": "",
+    "text": "Regular verbs in English are characterized by following a rule to form the simple past and past participle. This rule generally consists of adding “-ed” to the infinitive of the verb. For example, the verb “walk” becomes “walked” in simple past and past participle. However, there are some exceptions to this rule, such as verbs that end in “e” and only need to add a “d,” or verbs that change the last letter of the infinitive by adding “-ed.”\nIn summary, regular verbs in English are those that follow a rule to form the simple past and past participle by adding “-ed” to the infinitive of the verb. Although there are some exceptions, most regular verbs follow this rule. Knowing this rule makes it easier to learn and remember how to conjugate regular verbs in English.\nGenerally, regular verbs in English are divided into three groups according to the way “-ed” is added to form the past and past participle. Below is a list of regular verbs in English, separated by group:\n\n\n\n\nInfinitive\nSimple Past\nPast Participio\n\n\n\n\ncarry\ncarried\ncarried\n\n\ncopy\ncopied\ncopied\n\n\ncry\ncried\ncried\n\n\ndry\ndried\ndried\n\n\nfry\nfried\nfried\n\n\nhurry\nhurried\nhurried\n\n\nmarry\nmarried\nmarried\n\n\nstudy\nstudied\nstudied\n\n\ntry\ntried\ntried\n\n\nworry\nworried\nworried"
   }
 ]

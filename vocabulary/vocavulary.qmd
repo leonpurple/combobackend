@@ -1,0 +1,26 @@
+---
+title: "General Vocabulary"
+subtitle: Technical terms and definitions
+author: Cruz Martinez 
+date: "27/03/2023"
+date-modified: last-modified
+date-format: full
+description: description
+categories: [vocabulary]
+toc: true
+number-sections: true
+format:
+  html
+---
+![Technical terms and definitions](/images/vocabulary/vocabulary-logo-principal-01.png){width=60%}
+
+## Vocabulary
+
+: General vocabulary {tbl-colwidths="[20,80]"}
+
+| regulars verbs|
+| irregulars verbs|
+| transitive vs. Intransitive |
+| modal verbs |
+| Compound verbs |
+| Reflexive verbs |

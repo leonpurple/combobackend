@@ -28,5 +28,17 @@
   },
   "designpatterns/designpatterns.qmd": {
     "designpatterns.html": "cba31f63"
+  },
+  "aboutjavascript/aboutjavascript.qmd": {
+    "aboutjavascript.html": "40b7104f"
+  },
+  "vocabulary/vocavulary-in-verb-reg.qmd": {
+    "vocavulary-in-verb-reg.html": "34632582"
+  },
+  "vocabulary/vocabulary-regulars-verbs.qmd": {
+    "vocabulary-regulars-verbs.html": "59bdcc36"
+  },
+  "vocabulary/vocavulary.qmd": {
+    "vocavulary.html": "c69c6cd5"
   }
 }
