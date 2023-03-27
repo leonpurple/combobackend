@@ -20,6 +20,8 @@ website:
            #- sidebar:aboutgithub
            #- sidebar:aboutuml
            - sidebar:programmingparadigms #ADD FEATURES
+           - sidebar:vocabulary
+           #- sidebar:vocabulary-regulars-verbs
 
   #INIT NAV          
   sidebar:

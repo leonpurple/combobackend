@@ -40,5 +40,14 @@
   },
   "vocabulary/vocavulary.qmd": {
     "vocavulary.html": "c69c6cd5"
+  },
+  "vocabulary/vocabulary.qmd": {
+    "vocabulary.html": "5722f2d9"
+  },
+  "vocabulary/vocabulary-irregular-verbs.qmd": {
+    "vocabulary-irregular-verbs.html": "f1b2b3fb"
+  },
+  "vocabulary/vocabulary-transitevsintransitive.qmd": {
+    "vocabulary-transitevsintransitive.html": "fd6e0cc1"
   }
 }

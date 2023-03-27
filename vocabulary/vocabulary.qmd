@@ -18,9 +18,9 @@ format:
 
 : General vocabulary {tbl-colwidths="[20,80]"}
 
-| regulars verbs|
-| irregulars verbs|
-| transitive vs. Intransitive |
+| [ regulars verbs ](vocabulary-regulars-verbs.qmd) |
+| [ irregulars verbs ](vocabulary-irregular-verbs.qmd)|
+| [ transitive vs. Intransitive ](vocabulary-transitevsintransitive.qmd) |
 | modal verbs |
 | Compound verbs |
 | Reflexive verbs |
