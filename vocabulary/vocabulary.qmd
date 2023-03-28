@@ -1,6 +1,6 @@
 ---
 title: "General Vocabulary"
-subtitle: Technical terms and definitions
+subtitle: Learning English terms and definitions
 author: Cruz Martinez 
 date: "27/03/2023"
 date-modified: last-modified
@@ -16,11 +16,10 @@ format:
 
 ## Vocabulary
 
-: General vocabulary {tbl-colwidths="[20,80]"}
 
 | [ regulars verbs ](vocabulary-regulars-verbs.qmd) |
 | [ irregulars verbs ](vocabulary-irregular-verbs.qmd)|
 | [ transitive vs. Intransitive ](vocabulary-transitevsintransitive.qmd) |
-| modal verbs |
-| Compound verbs |
-| Reflexive verbs |
+| [ modal verbs ](vocabulary-modals-verbs.qmd)|
+| [ Compound verbs ](vocabulary-compound-verbs.qmd) |
+|  [ Reflexive verbs ](vocabulary-reflexive-verbs.qmd) |
