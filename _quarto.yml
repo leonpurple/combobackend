@@ -15,18 +15,49 @@ website:
     right:
            - text: Home #HOME
              file: index.qmd
+           - sidebar:javase  
+           - sidebar:spring-boot
            - sidebar:designpatterns  
            - sidebar:aboutgit
            #- sidebar:aboutgithub
            #- sidebar:aboutuml
            - sidebar:programmingparadigms #ADD FEATURES
+           - sidebar:labs
+           - sidebar:books
            - sidebar:vocabulary
+           - sidebar:technical-vocabulary
            #- sidebar:vocabulary-regulars-verbs
 
   #INIT NAV          
   sidebar:
 
-      #ABOUTGIT
+      #javase
+    - id: "javase" 
+      title: "JavaSE" 
+      border: true
+      background: none
+      style: "floating"
+      contents:
+        - text: "Java SE"
+        - text: "---"
+        - section: "flow Java SE"
+          contents:
+          - javase/javase.qmd
+          
+          #SPRING BOOT
+    - id: "spring-boot" 
+      title: "Spring Boot" 
+      border: true
+      background: none
+      style: "floating"
+      contents:
+        - text: "Spring Boot"
+        - text: "---"
+        - section: "flow Git"
+          contents:
+          - spring-boot/spring-boot.qmd
+
+          #ABOUTGIT
     - id: "aboutgit" 
       title: "Git" 
       border: true
@@ -52,16 +83,9 @@ website:
         - text: "---"
         - section: "Super Info" 
           contents:
-          - designpatterns/designpatterns.qmd  
-        
-      #ABOUT GIT-HUB
-    - id: "aboutgithub" 
-      title: "Git Hub"
+          - designpatterns/designpatterns.qmd 
 
-      #UML
-    - id: "aboutuml"
-      title: "UML"
-
+      
       #PROGRAMMING PARDIGMS
     - id: "programmingparadigms"
       title: "Programming Paradigms"  
@@ -74,6 +98,32 @@ website:
         - section: "Super Info "
           contents:
           - programmingparadigms/programmingparadigms.qmd
+
+      #BOOKS
+    - id: "books" 
+      title: "Books"  
+      border: true
+      background: none
+      style: "floating"
+      contents:
+        - text: "Books"
+        - text: "---"
+        - section: "Super Info" 
+          contents:
+          - books/books.qmd 
+
+      #LABS
+    - id: "labs" 
+      title: "Labs"  
+      border: true
+      background: none
+      style: "floating"
+      contents:
+        - text: "Labs"
+        - text: "---"
+        - section: "Super Info" 
+          contents:
+          - labs/labs.qmd       
 
       #VOCABULARY
     - id: "vocabulary"
