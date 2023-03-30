@@ -27,6 +27,7 @@ website:
            - sidebar:vocabulary
            - sidebar:technical-vocabulary
            #- sidebar:vocabulary-regulars-verbs
+           - sidebar:about
 
   #INIT NAV          
   sidebar:
@@ -127,7 +128,7 @@ website:
 
       #VOCABULARY
     - id: "vocabulary"
-      title: "vocabulary"  
+      title: "Vocabulary"  
       border: true
       background: none
       style: "floating"
@@ -136,7 +137,33 @@ website:
         - text: "---" 
         - section: "Super Info "
           contents:
-          - vocabulary/vocabulary.qmd    
+          - vocabulary/vocabulary.qmd   
+
+      #TECH - VOCABULARY
+    - id: "technical-vocabulary"
+      title: "Technical Vocabulary"  
+      border: true
+      background: none
+      style: "floating"
+      contents:
+        - text: "Technical Vocabulary" 
+        - text: "---" 
+        - section: "Super Info "
+          contents:
+          - technical-vocabulary/technical-vocabulary.qmd
+          
+      #ABOUT 
+    - id: "about"
+      title: "About"  
+      border: true
+      background: none
+      style: "floating"
+      contents:
+        - text: "About" 
+        - text: "---" 
+        - section: "Super Info "
+          contents:
+          - about/about.qmd        
 
 
 

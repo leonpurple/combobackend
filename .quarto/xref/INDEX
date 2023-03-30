@@ -58,5 +58,23 @@
   },
   "vocabulary/vocabulary-reflexive-verbs.qmd": {
     "vocabulary-reflexive-verbs.html": "7685e166"
+  },
+  "spring-boot/spring-boot.qmd": {
+    "spring-boot.html": "7cd8c533"
+  },
+  "technical-vocabulary /technical-vocabulary.qmd": {
+    "technical-vocabulary.html": "b2f059a4"
+  },
+  "labs/labs.qmd": {
+    "labs.html": "954213a7"
+  },
+  "books/books.qmd": {
+    "books.html": "9c75a824"
+  },
+  "javase/javase.qmd": {
+    "javase.html": "f4a2b11f"
+  },
+  "about/about.qmd": {
+    "about.html": "8f93044a"
   }
 }
